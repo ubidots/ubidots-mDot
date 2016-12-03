@@ -5,10 +5,10 @@
 LoRa is a modulation technique with a significantly long range. The modulation is based on spread-spectrum techniques and a variation of chirp spread spectrum (CSS) with integrated forward error correction (FEC). Mdot is a node to connect an IoT project with a LoRa network.
 
 <aside class="notice">
-Before to di this tutorial, you need to do the MultiConnect Conduit tutorial, and set the Network name, password and sub-band channel. This tutorial is <p href="../devices/conduit.html">here</p>
+Before doing this tutorial, you need to setup your MultiConnect Conduit and set the Network name, password and sub-band channel.
 </aside>
 
-## Requiremets
+## Requirements
 
 * [MultiTech mDot](http://www.multitech.com/models/94557148LF)
 * [An mbed developer account](https://developer.mbed.org/compiler)
@@ -135,7 +135,7 @@ int main() {
 }
 ```
 
-## Send multiple values to Ubidots 
+## Send values to Ubidots 
 
 To send three values from Analog Pins (A0, A1, A2) copy the next code and paste in into **main.cpp** don't forget to change in the code the **Lora network name**, **Frequency Sub-Band** and **Passphrase**. Now pres compile and copi the .bin file to your 
 
