@@ -137,7 +137,7 @@ int main() {
 
 ## Send values to Ubidots 
 
-To send three values from Analog Pins (A0, A1, A2) copy the next code and paste in into **main.cpp** don't forget to change in the code the **Lora network name**, **Frequency Sub-Band** and **Passphrase**. Now pres compile and copi the .bin file to your 
+To send three values from Analog Pins (A0, A1, A2) copy the next code and paste in into **main.cpp** don't forget to change in the code the **Lora network name**, **Frequency Sub-Band** and **Passphrase**. Now pres compile and copy the .bin file to your mDot.
 
 ```c
 #include "mbed.h"
